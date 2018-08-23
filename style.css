@@ -1,0 +1,78 @@
+.preching{
+	padding: 90px 0;
+	background: #f5f5f5;
+}
+
+.price-table{
+	text-align: center;
+	background: #fff;
+	border-radius: 25px;
+	box-shadow: 0 0 40px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.col-md-4:nth-child(2) .price-table{
+	transform: scale(1.1);
+}
+
+.price-table .price-head{
+	padding: 40px;
+	background: linear-gradient(45deg, #f39c12, #3498db);
+	color: #fff;
+	border-radius: 0 0 50% 50%;
+}
+.price-table .price-head h4{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.price-table .price-head h2{
+	font-size: 30px;
+	
+}
+.price-table .price-content{
+padding: 25px 0 15px;
+}
+
+.price-table .price-content ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.price-table .price-content ul li{
+	padding: 10px 0;
+	color: #777;
+	transition: .25s;
+}
+.price-table .price-content ul li:hover{
+border-left: 15px solid #f1c40f;
+border-right: 15px solid #f1c40f;
+cursor: pointer;
+background-color:rgba(192,192,192,0.1);
+color: #000;
+font-weight: 500;
+}
+
+.price-table .price-bottom{
+	padding-bottom: 20px;
+
+}
+.price-table .price-bottom a{
+display: inline-block;
+text-decoration:none;
+background: linear-gradient(45deg, #f39c12, #3498db);
+padding: 5px 15px;
+border-radius: 20px;
+color: #fff;
+text-transform: uppercase;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .col-media{
+   padding: 50px;
+    }
+}
+
+
